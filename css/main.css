@@ -1,5 +1,7 @@
 :root {
     --primary-color: #0089E0;
+    --light-color: #f3f4f4;
+    --light-text: #979797;
   }
 
 *{
@@ -17,6 +19,24 @@ body {
     width: 90%;
     max-width: 1080px;
     margin: 0 auto;
+}
+
+.titulo-seccion {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.titulo-seccion h2 {
+    color: var(--primary-color);
+    font-size: 3.125rem;
+    margin-bottom: 15px;
+    font-weight: 500;
+}
+
+.titulo-seccion p {
+    color: var(--light-text);
+    font-size: 1rem;
+    font-weight: 400;
 }
 
 .menu-bar-pc {
@@ -85,7 +105,7 @@ body {
 }
 
 .fixed-header .menu-principal a,
-.top-redes a {
+.fixed-header .top-redes a {
     color: #444;
 }
 
@@ -96,4 +116,87 @@ body {
 
 .menu-mobile {
     display: none;
+}
+
+.main {
+    width: 100%;
+    margin-top: -68px;
+}
+
+.main .banner-principal {
+    width: 100%;
+    position: relative;
+}
+
+.main .banner-principal .banner {
+    width: 100%;
+    height: 100vh;
+    background-image: url(../img/banner.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.main .banner-principal .texto-banner {
+    display: inline-block;
+    width: 90%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.main .banner-principal .texto-banner h2 {
+    font-weight: 300;
+    color: #fff;
+    margin-bottom: 20px;
+}
+.main .banner-principal .texto-banner h1 {
+    font-size: 6.0625rem;
+    font-weight: 700;
+    line-height: 90px;
+    color: #fff;
+    margin-bottom: 30px;
+}
+
+.main .banner-principal .texto-banner a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 20px;
+    background: var(--primary-color);
+    color: #fff;
+    transition: all .7s ease;
+}
+
+.main .banner-principal .texto-banner a:hover {
+    background: #fff;
+    color: var(--primary-color);
+}
+
+.main .promociones {
+    background: var(--light-color);
+    padding: 108px 0 54px 0;
+
+}
+
+.main .promociones .galeria-destinos {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-bottom: 34px;
+    border-bottom: 1px solid #ccc;
+}
+
+.main .promociones .galeria-destinos .destino {
+    width: 32%;
+    cursor: pointer;
+    margin-bottom: 2%;
+}
+
+.main .promociones .galeria-destinos .destino img {
+    width: 100%;
+    vertical-align: top;
 }
