@@ -284,3 +284,65 @@ body {
 .main .contenedor-slider .btn-siguiente i:hover {
     color: var(--primary-color);
 }
+
+.main .testimonios {
+    background: var(--light-color);
+    padding-top: 54px;
+    padding-bottom: 108px;
+}
+
+.main .testimonios .testigo {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.main .testimonios .testigo .persona-testigo {
+    background-color: #fff;
+    padding: 50px;
+    width: 100%;
+    max-width: 300px;
+    box-shadow: 0px 9px 32px -1px rgba(0,0,0,0.2);
+    text-align: center;
+}
+
+.main .testimonios .testigo .persona-testigo:first-child,
+.main .testimonios .testigo .persona-testigo:last-child {
+    position: relative;
+    top: 20px;
+}
+
+.main .testimonios .testigo .persona-testigo .foto {
+    width: 50%;
+    max-width: 100px;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+.main .testimonios .testigo .persona-testigo .foto img {
+    width: 100%;
+    border-radius: 100%;
+}
+
+.main .testimonios .testigo .persona-testigo .texto h3 {
+    font-size: 1.3rem;
+    font-weight: 500;
+    color: var(--primary-color);
+}
+
+.main .testimonios .testigo .persona-testigo .texto h4 {
+    color: var(--light-text);
+    font-size: 0.8rem;
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+
+.main .testimonios .testigo .persona-testigo .texto p {
+    color: var(--light-text);
+    font-size: 0.9rem;
+    font-weight: 400;
+}
+
+
+
