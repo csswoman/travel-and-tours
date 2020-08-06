@@ -200,3 +200,36 @@ body {
     width: 100%;
     vertical-align: top;
 }
+
+/* Modal seccion destinos */
+
+.main .acerca-de {
+    background: var(--light-color);
+}
+
+.main .acerca-de .contenedor {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.main .acerca-de .contenedor .titulo-seccion {
+    width: 33.33%;
+    text-align: left;
+}
+
+.main .acerca-de .contenedor .titulo-seccion h2 {
+    margin-bottom: 0;
+}
+
+.main .acerca-de .texto-acerca-de {
+    width: 66.66%;
+    text-align: left;
+}
+
+.main .acerca-de .texto-acerca-de p {
+    color: var(--light-text);
+    font-size: 1rem;
+    font-weight: 400;
+}
