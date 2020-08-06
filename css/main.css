@@ -406,3 +406,46 @@ body {
     background-position: center;
     background-size: cover;
 }
+
+.main .contacto {
+    padding: 190px 0;
+    background-image: url(../img/bg-contacto.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.main .contacto .contenedor-formulario {
+    background: #fff;
+    min-height: 485px;
+    border-radius: 3px;
+    box-shadow: 0px 9px 2px -1px rgba(0, 0, 0, 0.3);
+    display: flex;
+    justify-content: space-between;
+}
+
+.main .contacto .contenedor-formulario .formulario {
+    width: 50%;
+    padding: 70px;
+}
+
+.main .contacto .contenedor-formulario .formulario h2 {
+    font-size: 1.375rem;
+    line-height: 24px;
+    color: var(--primary-color);
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.main .contacto .contenedor-formulario .formulario p {
+    color: var(--light-text);
+    font-size: 1rem;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+.main .contacto .contenedor-formulario .formulario form input[type="text"],
+.main .contacto .contenedor-formulario .formulario form input[type="email"] {
+    border: none;
+    
+}
