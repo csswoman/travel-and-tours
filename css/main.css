@@ -447,5 +447,55 @@ body {
 .main .contacto .contenedor-formulario .formulario form input[type="text"],
 .main .contacto .contenedor-formulario .formulario form input[type="email"] {
     border: none;
-    
+    border-bottom: 1px solid #ccc;
+    padding: 10px 0;
+    outline: none;
+    width: 100%;
+    margin-bottom: 10px;
+    color: var(--light-text);
+    font-size: 0.9rem;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+}
+
+.main .contacto .contenedor-formulario .formulario form textarea {
+    border: none;
+    border-bottom: 1px solid #ccc;
+    padding: 10px 0;
+    outline: none;
+    width: 100%;
+    max-width: 100%;
+    min-height: 88px;
+    max-height: 88px;
+    color: var(--light-text);
+    margin-bottom: 10px;
+    font-size: 0.9rem;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 0;
+}
+
+.main .contacto .contenedor-formulario .formulario form input[type="submit"] {
+    width: 100%;
+    border: none;
+    border: 1px solid var(--primary-color);
+    padding: 8px;
+    background: var(--primary-color);
+    color: #fff;
+    font-size: 0.9rem;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 0.5px;
+    cursor: pointer;
+    transition: all .7s ease;
+}
+
+.main .contacto .contenedor-formulario .formulario form input[type="submit"]:hover {
+    background: #fff;
+    color: var(--primary-color);
+}
+
+.main .contacto .contenedor-formulario .foto {
+    width: 50%;
+    background-image: url(../img/foto-contacto.jpg);
+    background-size: cover;
 }
