@@ -1,40 +1,68 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
     <title>Travel & Tours</title>
     <link rel="stylesheet" href="css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/main.css">
 </head>
+
 <body>
-<header>
-    <div class="menu-mobile">
-        <div class="barra">
+    <header>
+        <div class="menu-mobile">
+            <div class="barra">
+                <a href="#" class="logo">
+                    <img src="img/logotipo.png" height="55px" alt="logo de Travel and Tours">
+                </a>
+                <a href="#" id="btnMenu">
+                    <i class="fa fa-bars"></i>
+                </a>
+            </div>
+            <nav class="menu-principal">
+                <a href="#" class="volver-arriba">INICIO</a>
+                <a href="#" class="scroll-suave">DESTINOS</a>
+                <a href="#" class="scroll-acercaDe">ACERCA DE</a>
+                <a href="#" class="scroll-equipo">PROMOCIONES</a>
+                <a href="#" class="scroll-suave">CONTACTO</a>
+            </nav>
+        </div>
+
+        <div class="menu-bar-pc">
             <a href="#" class="logo">
                 <img src="img/logotipo.png" height="55px" alt="logo de Travel and Tours">
             </a>
-            <a href="#" id="btnMenu">
-                <i class="fa fa-bars"></i>
-            </a>
-        </div>
-        <nav class="menu-principal">
-            <a href="#" class="volver-arriba">INICIO</a>
-            <a href="#"class="scroll-suave">DESTINOS</a>
-            <a href="#" class="scroll-acercaDe">ACERCA DE</a>
-            <a href="#" class="scroll-equipo">PROMOCIONES</a>
-            <a href="#" class="scroll-suave">CONTACTO</a>
-        </nav>
-    </div>
+            <nav class="menu-principal">
+                <a href="#" class="volver-arriba">INICIO</a>
+                <a href="#" class="scroll-suave">DESTINOS</a>
+                <a href="#" class="scroll-acercaDe">ACERCA DE</a>
+                <a href="#" class="scroll-equipo">PROMOCIONES</a>
+                <a href="#" class="scroll-suave">CONTACTO</a>
+            </nav>
 
-    <div class="menu-bar-pc">
+            <div class="top-redes">
+                <a href="#">
+                    <i class="fa fa-facebook"></i>
+                </a>
+                <a href="#">
+                    <i class="fa fa-twitter"></i>
+                </a>
+                <a href="#">
+                    <i class="fa fa-instagram"></i>
+                </a>
+            </div>
+        </div>
+    </header>
+    <div class="fixed-header" id="fixedHeader">
         <a href="#" class="logo">
             <img src="img/logotipo.png" height="55px" alt="logo de Travel and Tours">
         </a>
         <nav class="menu-principal">
             <a href="#" class="volver-arriba">INICIO</a>
-            <a href="#"class="scroll-suave">DESTINOS</a>
+            <a href="#" class="scroll-suave">DESTINOS</a>
             <a href="#" class="scroll-acercaDe">ACERCA DE</a>
             <a href="#" class="scroll-equipo">PROMOCIONES</a>
             <a href="#" class="scroll-suave">CONTACTO</a>
@@ -52,337 +80,320 @@
             </a>
         </div>
     </div>
-</header>
-<div class="fixed-header" id="fixedHeader">
-    <a href="#" class="logo">
-        <img src="img/logotipo.png" height="55px" alt="logo de Travel and Tours">
-    </a>
-    <nav class="menu-principal">
-        <a href="#" class="volver-arriba">INICIO</a>
-        <a href="#"class="scroll-suave">DESTINOS</a>
-        <a href="#" class="scroll-acercaDe">ACERCA DE</a>
-        <a href="#" class="scroll-equipo">PROMOCIONES</a>
-        <a href="#" class="scroll-suave">CONTACTO</a>
-    </nav>
 
-    <div class="top-redes">
-        <a href="#">
-            <i class="fa fa-facebook"></i>
-        </a>
-        <a href="#">
-            <i class="fa fa-twitter"></i>
-        </a>
-        <a href="#">
-            <i class="fa fa-instagram"></i>
-        </a>
-    </div>
-</div>
-
-<section class="main">
-    <section class="banner-principal">
-        <div class="banner" id="banner"></div>
-        <div class="texto-banner">
-            <h2>Creadores de experiencias</h2>
-            <h1>¿Dónde será la próxima?</h1>
-            <a href="#" class="scroll-suave">Ver promociones</a>
-        </div>
-    </section>
-
-    <section class="viajes" id="viajes">
-        <div class="contenedor">
-            <div class="titulo-seccion">
-                <h2>Destinos destacados</h2>
-                <p>Selecciona el destino para conocer más</p>
+    <section class="main">
+        <section class="banner-principal">
+            <div class="banner" id="banner"></div>
+            <div class="texto-banner">
+                <h2>Creadores de experiencias</h2>
+                <h1>¿Dónde será la próxima?</h1>
+                <a href="#" class="scroll-suave">Ver promociones</a>
             </div>
-            <div class="contenedor-menu">
-                <ul id="encabezado-menu" class="encabezado">
-                    <li>
-                        <a class="ver-menu" href="#sudamerica">Sudamérica</a>
-                    </li>
-                    <li>
-                        <a href="#norteamerica">Norteamérica</a>
-                    </li>
-                    <li>
-                        <a href="#caribe">Caribe</a>
-                    </li>
-                    <li>
-                        <a href="#europa">Europa</a>
-                    </li>
-                    <li>
-                        <a href="#asia">Asia</a>
-                    </li>
-                </ul>
-                <div class="contenido" id="contenido-menu">
-                    <div id="sudamerica" class="active">
-                        <div class="viaje sudamerica-a">
-                            <div class="overlay"></div>
-                        </div>
-                        <div class="viaje sudamerica-b">
-                            <div class="overlay"></div>
-                        </div>
-                        <div class="viaje sudamerica-c">
-                            <div class="overlay"></div>
-                        </div>
-                        <div class="btn">
-                            <a href="#">Más viajes</a>
-                        </div>
-                    </div>
+        </section>
 
-                    <div id="norteamerica">
-                        <div class="viaje norteamerica-a">
-                            <div class="overlay"></div>
+        <section class="viajes" id="viajes">
+            <div class="contenedor">
+                <div class="titulo-seccion">
+                    <h2>Destinos destacados</h2>
+                    <p>Selecciona el destino para conocer más</p>
+                </div>
+                <div class="contenedor-menu">
+                    <ul id="encabezado-menu" class="encabezado">
+                        <li>
+                            <a class="ver-menu" href="#sudamerica">Sudamérica</a>
+                        </li>
+                        <li>
+                            <a href="#norteamerica">Norteamérica</a>
+                        </li>
+                        <li>
+                            <a href="#caribe">Caribe</a>
+                        </li>
+                        <li>
+                            <a href="#europa">Europa</a>
+                        </li>
+                        <li>
+                            <a href="#asia">Asia</a>
+                        </li>
+                    </ul>
+                    <div class="contenido" id="contenido-menu">
+                        <div id="sudamerica" class="active">
+                            <div class="viaje sudamerica-a">
+                                <div class="overlay">
+                                    <div class="texto-viaje">
+                                        <h4>Perú</h4>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="viaje sudamerica-b">
+                                <div class="overlay">
+                                    <div class="texto-viaje">
+                                        <h4>Chile</h4>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="viaje sudamerica-c">
+                                <div class="overlay">
+                                    <div class="texto-viaje">
+                                        <h4>Brasil</h4>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="btn">
+                                <a href="#">Más viajes</a>
+                            </div>
                         </div>
-                        <div class="viaje norteamerica-b">
-                            <div class="overlay"></div>
-                        </div>
-                        <div class="viaje norteamerica-c">
-                            <div class="overlay"></div>
-                        </div>
-                        <div class="btn">
-                            <a href="#">Más viajes</a>
-                        </div>
-                    </div>
 
-                    <div id="caribe">
-                        <div class="viaje caribe-a">
-                            <div class="overlay"></div>
+                        <div id="norteamerica">
+                            <div class="viaje norteamerica-a">
+                                <div class="overlay"></div>
+                            </div>
+                            <div class="viaje norteamerica-b">
+                                <div class="overlay"></div>
+                            </div>
+                            <div class="viaje norteamerica-c">
+                                <div class="overlay"></div>
+                            </div>
+                            <div class="btn">
+                                <a href="#">Más viajes</a>
+                            </div>
                         </div>
-                        <div class="viaje caribe-b">
-                            <div class="overlay"></div>
-                        </div>
-                        <div class="viaje caribe-c">
-                            <div class="overlay"></div>
-                        </div>
-                        <div class="btn">
-                            <a href="#">Más viajes</a>
-                        </div>
-                    </div>
 
-                    <div id="europa">
-                        <div class="viaje europa-a">
-                            <div class="overlay"></div>
+                        <div id="caribe">
+                            <div class="viaje caribe-a">
+                                <div class="overlay"></div>
+                            </div>
+                            <div class="viaje caribe-b">
+                                <div class="overlay"></div>
+                            </div>
+                            <div class="viaje caribe-c">
+                                <div class="overlay"></div>
+                            </div>
+                            <div class="btn">
+                                <a href="#">Más viajes</a>
+                            </div>
                         </div>
-                        <div class="viaje europa-b">
-                            <div class="overlay"></div>
-                        </div>
-                        <div class="viaje europa-c">
-                            <div class="overlay"></div>
-                        </div>
-                        <div class="btn">
-                            <a href="#">Más viajes</a>
-                        </div>
-                    </div>
 
-                    <div id="asia">
-                        <div class="viaje asia-a">
-                            <div class="overlay"></div>
+                        <div id="europa">
+                            <div class="viaje europa-a">
+                                <div class="overlay"></div>
+                            </div>
+                            <div class="viaje europa-b">
+                                <div class="overlay"></div>
+                            </div>
+                            <div class="viaje europa-c">
+                                <div class="overlay"></div>
+                            </div>
+                            <div class="btn">
+                                <a href="#">Más viajes</a>
+                            </div>
                         </div>
-                        <div class="viaje asia-b">
-                            <div class="overlay"></div>
-                        </div>
-                        <div class="viaje asia-c">
-                            <div class="overlay"></div>
-                        </div>
-                        <div class="btn">
-                            <a href="#">Más viajes</a>
+
+                        <div id="asia">
+                            <div class="viaje asia-a">
+                                <div class="overlay"></div>
+                            </div>
+                            <div class="viaje asia-b">
+                                <div class="overlay"></div>
+                            </div>
+                            <div class="viaje asia-c">
+                                <div class="overlay"></div>
+                            </div>
+                            <div class="btn">
+                                <a href="#">Más viajes</a>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-</section>
-<section class="promociones" id="promociones">
-    <div class="contenedor">
-        <div class="titulo-seccion">
-            <h2>Promociones</h2>
-            <p>Disfruta de los mejores destinos durante este mes</p>
-        </div>
-        <div class="galeria-destinos">
-            <div class="destino">
-                <img src="./img/proyecto1.jpg" alt="" class="imagen-destino">
+        </section>
+        <section class="promociones" id="promociones">
+            <div class="contenedor">
+                <div class="titulo-seccion">
+                    <h2>Promociones</h2>
+                    <p>Disfruta de los mejores destinos durante este mes</p>
+                </div>
+                <div class="galeria-destinos">
+                    <div class="destino">
+                        <img src="./img/proyecto1.jpg" alt="" class="imagen-destino">
+                    </div>
+                    <div class="destino">
+                        <img src="./img/proyecto1.jpg" alt="" class="imagen-destino">
+                    </div>
+                    <div class="destino">
+                        <img src="./img/proyecto1.jpg" alt="" class="imagen-destino">
+                    </div>
+                    <div class="destino">
+                        <img src="./img/proyecto1.jpg" alt="" class="imagen-destino">
+                    </div>
+                    <div class="destino">
+                        <img src="./img/proyecto1.jpg" alt="" class="imagen-destino">
+                    </div>
+                    <div class="destino">
+                        <img src="./img/proyecto1.jpg" alt="" class="imagen-destino">
+                    </div>
+                </div>
             </div>
-            <div class="destino">
-                <img src="./img/proyecto1.jpg" alt="" class="imagen-destino">
-            </div>
-            <div class="destino">
-                <img src="./img/proyecto1.jpg" alt="" class="imagen-destino">
-            </div>
-            <div class="destino">
-                <img src="./img/proyecto1.jpg" alt="" class="imagen-destino">
-            </div>
-            <div class="destino">
-                <img src="./img/proyecto1.jpg" alt="" class="imagen-destino">
-            </div>
-            <div class="destino">
-                <img src="./img/proyecto1.jpg" alt="" class="imagen-destino">
-            </div>
-        </div>
-    </div>
-</section>
+        </section>
 
-<section class="acerca-de" id="acercaDe">
-    <div class="contenedor">
-        <div class="titulo-seccion">
-            <h2>Nosotros</h2>
-            <p>te llevamos al destino que elijas</p>
-        </div>
-        <div class="texto-acerca-de">
-            <p>
-                Somos un grupo de profesionales con 50 años de experiencia en asesoramiento de viajes, diseñamos los viajes de acuerdo a sus necesidades ya sea de negocios, vacacional, corporativo o para estudiantes.
-            </p>
-        </div>
-    </div>
-</section>
+        <section class="acerca-de" id="acercaDe">
+            <div class="contenedor">
+                <div class="titulo-seccion">
+                    <h2>Nosotros</h2>
+                    <p>te llevamos al destino que elijas</p>
+                </div>
+                <div class="texto-acerca-de">
+                    <p>
+                        Somos un grupo de profesionales con 50 años de experiencia en asesoramiento de viajes, diseñamos
+                        los viajes de acuerdo a sus necesidades ya sea de negocios, vacacional, corporativo o para
+                        estudiantes.
+                    </p>
+                </div>
+            </div>
+        </section>
 
-<section class="contenedor-slider">
-    <div class="slider" id="slider">
-        <div class="slide">
-            <img src="img/slide1.jpg" alt="">
-        </div>
-        <div class="slide">
-            <img src="img/slide2.jpg" alt="">
-        </div>
-        <div class="slide">
-            <img src="img/slide3.jpg" alt="">
-        </div>
-        <div class="slide">
-            <img src="img/slide4.jpg" alt="">
-        </div>
-    </div>
-    <div class="btn-anterior" id="btnAnterior">
-        <i class="fa fa-arrow-left"></i>
-    </div>
-    <div class="btn-siguiente" id="btnSiguiente">
-        <i class="fa fa-arrow-right"></i>
-    </div>
-</section>
+        <section class="contenedor-slider">
+            <div class="slider" id="slider">
+                <div class="slide">
+                    <img src="img/slide1.jpg" alt="">
+                </div>
+                <div class="slide">
+                    <img src="img/slide2.jpg" alt="">
+                </div>
+                <div class="slide">
+                    <img src="img/slide3.jpg" alt="">
+                </div>
+                <div class="slide">
+                    <img src="img/slide4.jpg" alt="">
+                </div>
+            </div>
+            <div class="btn-anterior" id="btnAnterior">
+                <i class="fa fa-arrow-left"></i>
+            </div>
+            <div class="btn-siguiente" id="btnSiguiente">
+                <i class="fa fa-arrow-right"></i>
+            </div>
+        </section>
 
-<section class="testimonios" id="testimonios">
-    <div class="contenedor">
-        <div class="titulo-seccion">
-            <h2>Testimonios</h2>
-            <p>Nuestros clientes hablan por nosotros</p>
-        </div>
-        <div class="testigo">
-            <div class="persona-testigo">
+        <section class="testimonios" id="testimonios">
+            <div class="contenedor">
+                <div class="titulo-seccion">
+                    <h2>Testimonios</h2>
+                    <p>Nuestros clientes hablan por nosotros</p>
+                </div>
+                <div class="testigo">
+                    <div class="persona-testigo">
+                        <div class="foto">
+                            <img src="img/foto1.jpg" alt="">
+                        </div>
+                        <div class="texto">
+                            <h3>Raúl Bolivar</h3>
+                            <h4>Estudiante</h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor neque quos quam
+                                voluptatum commodi aperiam laboriosam adipisci unde possimus voluptatibus.</p>
+                        </div>
+                    </div>
+
+                    <div class="persona-testigo">
+                        <div class="foto">
+                            <img src="img/foto2.jpg" alt="">
+                        </div>
+                        <div class="texto">
+                            <h3>David Gonzaléz</h3>
+                            <h4>Fotógrafo</h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor neque quos quam
+                                voluptatum commodi aperiam laboriosam adipisci unde possimus voluptatibus.</p>
+                        </div>
+                    </div>
+
+                    <div class="persona-testigo">
+                        <div class="foto">
+                            <img src="img/foto3.jpg" alt="">
+                        </div>
+                        <div class="texto">
+                            <h3>María Sanchéz</h3>
+                            <h4>Periodista</h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor neque quos quam
+                                voluptatum commodi aperiam laboriosam adipisci unde possimus voluptatibus.</p>
+                        </div>
+                    </div>
+        </section>
+
+        <section class="info-extra">
+            <div class="contenedor">
+                <div class="info">
+
+                    <div class="contenido-info">
+                        <div class="icono-info">
+                            <i class="fa fa-plane"></i>
+                        </div>
+                        <div class="texto-info">
+                            <h4>Equipo capacitado</h4>
+                            <p>Nuestros miembros de Travel & Tours se capacita constantemente para brindarte el mejor
+                                servicio.</p>
+                        </div>
+                    </div>
+
+                    <div class="contenido-info">
+                        <div class="icono-info">
+                            <i class="fa fa-hotel"></i>
+                        </div>
+                        <div class="texto-info">
+                            <h4>Los mejores alojamientos</h4>
+                            <p>Garantizamos que tenga una buena experiencia y un excelente descanso en los hoteles
+                                aliados.</p>
+                        </div>
+                    </div>
+                </div>
                 <div class="foto">
-                    <img src="img/foto1.jpg" alt="">
-                </div>
-                <div class="texto">
-                    <h3>Raúl Bolivar</h3>
-                    <h4>Estudiante</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor neque quos quam voluptatum commodi aperiam laboriosam adipisci unde possimus voluptatibus.</p>
                 </div>
             </div>
+        </section>
 
-            <div class="persona-testigo">
-                <div class="foto">
-                    <img src="img/foto2.jpg" alt="">
-                </div>
-                <div class="texto">
-                    <h3>David Gonzaléz</h3>
-                    <h4>Fotógrafo</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor neque quos quam voluptatum commodi aperiam laboriosam adipisci unde possimus voluptatibus.</p>
-                </div>
-            </div>
-
-            <div class="persona-testigo">
-                <div class="foto">
-                    <img src="img/foto3.jpg" alt="">
-                </div>
-                <div class="texto">
-                    <h3>María Sanchéz</h3>
-                    <h4>Periodista</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor neque quos quam voluptatum commodi aperiam laboriosam adipisci unde possimus voluptatibus.</p>
-                </div>
-            </div>
-</section>
-
-<section class="info-extra">
-                <div class="contenedor">
-                    <div class="info">
-
-                        <div class="contenido-info">
-                            <div class="icono-info">
-                                <i class="fa fa-plane"></i>
+        <div class="contacto" id="contacto">
+            <div class="contenedor">
+                <div class="contenedor-formulario">
+                    <div class="formulario">
+                        <h2>Cuéntanos acerca de tu viaje</h2>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsa, voluptatibus.</p>
+                        <form>
+                            <div>
+                                <input type="text" name="nombre" placeholder="Nombre">
                             </div>
-                            <div class="texto-info">
-                                <h4>Equipo capacitado</h4>
-                                <p>Nuestros miembros de Travel & Tours se capacita constantemente para brindarte el mejor servicio.</p>
+                            <div>
+                                <input type="email" name="email" placeholder="Correo electrónico">
                             </div>
-                        </div>
-
-                        <div class="contenido-info">
-                            <div class="icono-info">
-                                <i class="fa fa-hotel"></i>
+                            <div>
+                                <textarea name="mensaje" placeholder="Cuéntanos acerca de tu viaje"></textarea>
                             </div>
-                            <div class="texto-info">
-                                <h4>Los mejores alojamientos</h4>
-                                <p>Garantizamos que tenga una buena experiencia y un excelente descanso en los hoteles aliados.</p>
+                            <div>
+                                <input type="submit" name="enviar" value="Enviar">
                             </div>
-                        </div>
+                        </form>
                     </div>
                     <div class="foto">
                     </div>
                 </div>
-</section>
-
-<div class="contacto" id="contacto">
-                <div class="contenedor">
-                    <div class="contenedor-formulario">
-                        <div class="formulario">
-                            <h2>Cuéntanos acerca de tu viaje</h2>
-                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsa, voluptatibus.</p>
-                            <form>
-                                <div>
-                                    <input type="text" name="nombre" placeholder="Nombre">
-                                </div>
-                                <div>
-                                    <input type="email" name="email" placeholder="Correo electrónico">
-                                </div>
-                                <div>
-                                    <textarea name="mensaje" placeholder="Cuéntanos acerca de tu viaje"></textarea>
-                                </div>
-                                <div>
-                                    <input type="submit" name="enviar" value="Enviar">
-                                </div>
-                            </form>
-                        </div>
-                        <div class="foto">
-                        </div>
-                    </div>
-                </div>
-</div>
-
-
-        </section>
-
-
-
-        
-
-
-
-        <footer>
-            <div class="copy">
-                <p>Todos los derechos reservados</p>
             </div>
-            <div class="footer-redes">
-                <a href="#">
-                    <i class="fa fa-facebook"></i>
-                </a>
-                <a href="#">
-                    <i class="fa fa-twitter"></i>
-                </a>
-                <a href="#">
-                    <i class="fa fa-instagram"></i>
-                </a>
-            </div>
-        </footer>
-
-
-
-<script src="js/prefixfree.min.js"></script>
-<script src="js/tabsviajes.js"></script>
+        </div>
+    </section>
+    <footer>
+        <div class="copy">
+            <p>Todos los derechos reservados</p>
+        </div>
+        <div class="footer-redes">
+            <a href="#">
+                <i class="fa fa-facebook"></i>
+            </a>
+            <a href="#">
+                <i class="fa fa-twitter"></i>
+            </a>
+            <a href="#">
+                <i class="fa fa-instagram"></i>
+            </a>
+        </div>
+    </footer>
+    <script src="js/prefixfree.min.js"></script>
+    <script src="js/tabsviajes.js"></script>
 </body>
+
 </html>
