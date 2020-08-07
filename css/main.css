@@ -832,3 +832,46 @@ footer .footer-redes a:hover {
         text-align: center;
     }
 }
+
+@media screen and (max-width: 550px) {
+    .main .banner-principal .texto-banner h1 {
+        font-size: 4rem;
+    }
+    .titulo-seccion h2 {
+        font-size: 2.125rem;
+    }
+    .main .promociones .galeria-destinos .destino {
+        width: 49%;
+    }
+    .main .testimonios .testigo .persona-testigo {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .main .info-extra .contenedor .info .contenido-info {
+        flex-wrap: wrap;
+        text-align: center;
+    }
+
+    .main .info-extra .contenedor .info .contenido-info .icono-info {
+        width: 100%;
+        margin-bottom: 25px;
+    }
+
+    .main .info-extra .contenedor .info .contenido-info .icono-info i {
+        font-size: 3.5rem;
+    }
+
+    .main .info-extra .contenedor .info .contenido-info .texto-info {
+        margin-left: 0;
+    }
+
+    .main .info-extra .contenedor .info .contenido-info .icono-info h4 {
+        font-size: 1.175rem;
+    }
+
+    .main .info-extra .contenedor .info .contenido-info:first-child {
+        margin-bottom: 40px;
+    }
+}
