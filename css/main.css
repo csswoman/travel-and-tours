@@ -784,8 +784,51 @@ footer .footer-redes a:hover {
         display: block;
         position: fixed;
         top: 56px;
-        /* left: 100%; */
+        left: 100%;
         border-bottom: 1px solid rgba(204, 204, 204, 0.5);
         border-right: 1px solid rgba(204, 204, 204, 0.5);
+        box-shadow: 0px 1px 5px -1px rgba(0, 0, 0, 0.2);
+        background: #fff;
+        text-align: center;
+    }
+
+    .menu-mobile .menu-principal a {
+        display: block;
+        padding: 10px;
+        color: #444;
+        border-bottom: 1px solid rgba(204, 204, 204, 0.5));
+    }
+
+    .menu-mobile .menu-principal a:hover {
+        background: #f7f7f7;
+    }
+
+    .fixed-header {
+        display: none;
+    }
+
+    .main {
+        margin-top: 0;
+    }
+
+    .main .acerca-de .contenedor .titulo-seccion,
+    .main .acerca-de .contenedor .texto-acerca-de {
+        width: 100%;
+        text-align: center;
+    }
+
+    .main .contacto .contenedor-formulario .formulario {
+        width: 100%;
+        text-align: center;
+    }
+
+    .main .contacto .contenedor-formulario .foto {
+        display: none;
+    }
+
+    .main .contacto .contenedor-formulario .formulario form input[type="text"],
+    .main .contacto .contenedor-formulario .formulario form input[type="email"],
+    .main .contacto .contenedor-formulario .formulario form textarea {
+        text-align: center;
     }
 }
