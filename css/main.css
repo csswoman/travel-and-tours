@@ -718,6 +718,10 @@ footer .footer-redes a:hover {
 
 
 @media screen and (max-width: 1040px) {
+    .main .viajes .contenedor .contenedor-menu .contenido .btn{
+      margin-top: 50px;
+    }
+
     .main .testimonios .titulo-seccion {
         margin-bottom: 60px;
     }
@@ -810,6 +814,29 @@ footer .footer-redes a:hover {
     .main {
         margin-top: 0;
     }
+
+    .contenedor-menu .encabezado li a{
+        display: none;
+      }
+      .contenedor-menu .encabezado .ver-menu{
+        text-decoration: none;
+        color: #0a3782;
+        font-size: 0.75rem;
+        padding: 0 1.4375rem 1.125rem 1.4375rem;
+        display: block;
+        cursor: pointer;
+        transition: all .3s ease;
+        border-bottom: 2px solid transparent;
+      }
+
+    .main .viajes .contenedor .contenedor-menu .contenido .viaje{
+
+        width: 100%;
+        margin: auto;
+        background-position: bottom;
+        background-size: cover;
+        margin-bottom: 10px;
+      }
 
     .main .acerca-de .contenedor .titulo-seccion,
     .main .acerca-de .contenedor .texto-acerca-de {
