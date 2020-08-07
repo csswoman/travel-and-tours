@@ -29,7 +29,7 @@ body {
 .titulo-seccion h2 {
     color: var(--primary-color);
     font-size: 3.125rem;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
     font-weight: 500;
 }
 
@@ -498,4 +498,199 @@ body {
     width: 50%;
     background-image: url(../img/foto-contacto.jpg);
     background-size: cover;
+}
+
+/*-------------VIAJES------------ */
+.main .viajes {
+    background: #f8f5f5;
+    /*COLOR CREMA DEL FONDO*/
+    padding: 108px 0 54px 0;
+}
+
+.contenedor-menu {
+    margin-top: 2.5rem;
+}
+
+.contenedor-menu .encabezado {
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.contenedor-menu .encabezado li a {
+    text-decoration: none;
+    color: #0a3782;
+    font-size: 0.75rem;
+    padding: 0 1.4375rem 1.125rem 1.4375rem;
+    display: block;
+    cursor: pointer;
+    transition: all .3s ease;
+    border-bottom: 2px solid transparent;
+}
+
+.contenedor-menu .encabezado a:hover {
+    color: #27afef;
+}
+
+.contenedor-menu .encabezado li.active a {
+    color: #27afef;
+    border-bottom: 2px solid #27afef;
+}
+
+.main .viajes .contenedor .contenedor-menu .contenido {
+    margin-top: 2.5rem;
+    padding: 0 2.25rem;
+    display: flex;
+    justify-content: center;
+
+}
+
+.main .viajes .contenedor .contenedor-menu .contenido>div {
+    /*HACE REFERENCIA AL HIJO DIRECTO DE CONTENIDO*/
+    display: none;
+    transition: all 0.3s ease;
+}
+
+.main .viajes .contenedor .contenedor-menu .contenido .active {
+    display: block;
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.main .viajes .contenedor .contenedor-menu .contenido .viaje {
+    width: 32%;
+    position: relative;
+    background-repeat: no-repeat;
+    height: 300px;
+    background-position: center;
+    background-size: cover;
+}
+
+.main .viajes .contenedor-menu .contenido .viaje .overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(133, 168, 192, 0.3);
+    z-index: 1;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.main .viajes .contenedor-menu .contenido .viaje .overlay:hover {
+    background: rgba(133, 168, 192, 0.5);
+}
+
+.main .viajes .contenedor .contenedor-menu .contenido .viaje .texto-viaje {
+
+    color: #fff;
+    font-size: 1.5rem;
+    position: absolute;
+    text-align: center;
+    z-index: 2;
+    margin-top: 220px;
+    margin-left: 10px;
+}
+
+.main .viajes .contenedor .contenedor-menu .contenido .btn {
+    display: block;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.main .viajes .contenedor .contenedor-menu .contenido .btn a {
+    color: #fff;
+    background-color: #27afef;
+    padding: 10px 20px;
+    border-radius: 3px;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    text-transform: uppercase;
+    box-shadow: 0px 9px 32px -1px rgba(0, 0, 0, 0.3);
+    transition: all .5s ease;
+}
+
+.main .viajes .contenedor .contenedor-menu .contenido .btn a:hover {
+    color: #27afef;
+    background-color: #fff;
+}
+
+.main .viajes .contenedor .contenedor-menu .contenido .viaje.sudamerica-a {
+    background-image: url("../img/1.jpeg");
+}
+
+.main .viajes .contenedor .contenedor-menu .contenido .viaje.sudamerica-b {
+    background-image: url("../img/2.jpeg");
+}
+
+.main .viajes .contenedor .contenedor-menu .contenido .viaje.sudamerica-c {
+    background-image: url("../img/3.jpeg");
+}
+
+
+.main .viajes .contenedor .contenedor-menu .contenido .viaje.norteamerica-a {
+    background-image: url("../img/4.jpeg");
+}
+
+.main .viajes .contenedor .contenedor-menu .contenido .viaje.norteamerica-b {
+    background-image: url("../img/5.jpeg");
+}
+
+.main .viajes .contenedor .contenedor-menu .contenido .viaje.norteamerica-c {
+    background-image: url("../img/6.jpeg");
+}
+
+
+.main .viajes .contenedor .contenedor-menu .contenido .viaje.caribe-a {
+    background-image: url("../img/1.jpeg");
+}
+
+.main .viajes .contenedor .contenedor-menu .contenido .viaje.caribe-b {
+    background-image: url("../img/2.jpeg");
+}
+
+.main .viajes .contenedor .contenedor-menu .contenido .viaje.caribe-c {
+    background-image: url("../img/3.jpeg");
+}
+
+
+.main .viajes .contenedor .contenedor-menu .contenido .viaje.europa-a {
+    background-image: url("../img/4.jpeg");
+}
+
+.main .viajes .contenedor .contenedor-menu .contenido .viaje.europa-b {
+    background-image: url("../img/5.jpeg");
+}
+
+.main .viajes .contenedor .contenedor-menu .contenido .viaje.europa-c {
+    background-image: url("../img/6.jpeg");
+}
+
+.main .viajes .contenedor .contenedor-menu .contenido .viaje.asia-a {
+    background-image: url("../img/1.jpeg");
+}
+
+.main .viajes .contenedor .contenedor-menu .contenido .viaje.asia-b {
+    background-image: url("../img/2.jpeg");
+}
+
+.main .viajes .contenedor .contenedor-menu .contenido .viaje.asia-c {
+    background-image: url("../img/3.jpeg");
+}
+
+footer {
+    background: var(--light-color);
+    padding: 54px 0;
+    text-align: center;
+}
+
+footer .copy {
+    color: var(--light-color);
+    font-size: 0.9rem;
 }
