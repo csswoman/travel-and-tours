@@ -858,7 +858,6 @@ footer .footer-redes a:hover {
     .main .contacto .contenedor-formulario .formulario form textarea {
         text-align: center;
     }
-}
 
 @media screen and (max-width: 550px) {
     .main .banner-principal .texto-banner h1 {
