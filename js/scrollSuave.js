@@ -27,4 +27,26 @@ $(document).ready(function () {
         }
 
     })
+
+    // Movimiento suave de scroll de los demás items del menú principal
+
+    $('a.scroll-suave').on('click', function (e) {
+        e.preventDefault();
+        let seccionOffsetTop = $($(this).attr('href')).offset().top
+        $('html, body').stop().animate({scrollTop: seccionOffsetTop}, 1000);
+    });
+
+    $('a.scroll-viajes').on('click', function (e) {
+        e.preventDefault();
+        let seccionOffsetTop = $($(this).attr('href')).offset().top
+        $('html, body').stop().animate({scrollTop: seccionOffsetTop}, 1000);
+    });
+
+    $('a.scroll-acercaDe').on('click', function (e) {
+        e.preventDefault();
+        let seccionOffsetTop = $($(this).attr('href')).offset().top - 122
+        $('html, body').stop().animate({scrollTop: seccionOffsetTop}, 1000);
+    });
+
+
 });
