@@ -10,7 +10,7 @@ $(document).ready(function () {
 
             fixedHeader.css('margin-top', 0);
         } else if ($(window).scrollTop() <= proyectosOffsetTop/2) {
-            
+
             fixedHeader.css('margin-top', '-68px');
         }
     })

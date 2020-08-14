@@ -9,7 +9,6 @@
         enlaces_encabezado: document.querySelectorAll('#encabezado-menu li a'),
         li_encabezado: document.querySelectorAll('#encabezado-menu li'),
         divs_contenido: document.querySelectorAll('#contenido-menu > div'),
-        // contenido_activo: null
     }
 
     //Objeto con metodos de Tab

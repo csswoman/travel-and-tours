@@ -942,7 +942,6 @@ footer .footer-redes a:hover {
     }
 
     .main .viajes .contenedor .contenedor-menu .contenido .viaje{
-
         width: 100%;
         margin: auto;
         background-position: bottom;
@@ -970,6 +969,7 @@ footer .footer-redes a:hover {
     .main .contacto .contenedor-formulario .formulario form textarea {
         text-align: center;
     }
+}
 
 @media screen and (max-width: 550px) {
     .main .banner-principal .texto-banner h1 {
@@ -984,6 +984,7 @@ footer .footer-redes a:hover {
     .main .promociones .galeria-destinos .destino {
         width: 49%;
     }
+
     .main .testimonios .testigo .persona-testigo {
         flex-direction: column;
         align-items: center;
