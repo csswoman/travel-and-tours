@@ -1,5 +1,6 @@
 :root {
     --primary-color: #0089E0;
+    --secondary-color: #0a3782;
     --light-color: #f3f4f4;
     --light-text: #979797;
 }
@@ -262,15 +263,21 @@ body {
 }
 
 .card .content .sub-title {
-    font-size: 20px;
+    font-size: 15px;
     font-weight: 600;
-    color: blueviolet;
+    color: var(--secondary-color);
     line-height: 20px;
 }
 
 .card .content p {
     text-align: justify;
     margin: 10px 0;
+    font-weight: 500;
+    margin-top: 5px;
+}
+
+.card .content span {
+    font-size: 13px;
 }
 
 .card .content .btn {
@@ -280,15 +287,18 @@ body {
 }
 
 .card .content .btn button {
-    background: darkviolet;
+    background: var(--primary-color);
     color: #fff;
     border: none;
     outline: none;
-    font-size: 17px;
-    padding: 5px 8px;
+    font-size: 1rem;
+    font-weight: 500;
+    padding: 10px 20px;
     border-radius: 5px;
     cursor: pointer;
     transition: 0.2s;
+    text-transform: uppercase;
+    box-shadow: 0px 9px 32px -1px rgba(0, 0, 0, 0.3);
 }
 
 .card .content .btn button:hover {
@@ -299,6 +309,7 @@ body {
 
 .main .acerca-de {
     background: var(--light-color);
+    padding: 108px 0 54px 0;
 }
 
 .main .acerca-de .contenedor {
@@ -327,6 +338,8 @@ body {
     font-size: 1rem;
     font-weight: 400;
 }
+
+
 
 .main .contenedor-slider {
     width: 100%;
@@ -597,7 +610,6 @@ body {
 /*-------------VIAJES------------ */
 .main .viajes {
     background: #f8f5f5;
-    /*COLOR CREMA DEL FONDO*/
     padding: 108px 0 54px 0;
 }
 
@@ -616,7 +628,7 @@ body {
 
 .contenedor-menu .encabezado li a {
     text-decoration: none;
-    color: #0a3782;
+    color: var(--secondary-color);
     font-size: 0.75rem;
     padding: 0 1.4375rem 1.125rem 1.4375rem;
     display: block;
@@ -643,7 +655,6 @@ body {
 }
 
 .main .viajes .contenedor .contenedor-menu .contenido>div {
-    /*HACE REFERENCIA AL HIJO DIRECTO DE CONTENIDO*/
     display: none;
     transition: all 0.3s ease;
 }
@@ -699,7 +710,7 @@ body {
 
 .main .viajes .contenedor .contenedor-menu .contenido .btn a {
     color: #fff;
-    background-color: #27afef;
+    background-color: var(--primary-color);
     padding: 10px 20px;
     border-radius: 3px;
     text-decoration: none;
@@ -712,7 +723,7 @@ body {
 
 
 .main .viajes .contenedor .contenedor-menu .contenido .btn a:hover {
-    color: #27afef;
+    color: var(--primary-color);
     background-color: #fff;
 }
 
@@ -812,7 +823,7 @@ footer .footer-redes a:hover {
 
 @media screen and (max-width: 1040px) {
     .main .viajes .contenedor .contenedor-menu .contenido .btn{
-      margin-top: 50px;
+        margin-top: 50px;
     }
 
     .main .testimonios .titulo-seccion {
@@ -914,7 +925,7 @@ footer .footer-redes a:hover {
 
     .contenedor-menu .encabezado .ver-menu{
         text-decoration: none;
-        color: #0a3782;
+        color: var(--secondary-color);
         font-size: 0.75rem;
         padding: 0 1.4375rem 1.125rem 1.4375rem;
         display: block;
@@ -937,7 +948,7 @@ footer .footer-redes a:hover {
         background-position: bottom;
         background-size: cover;
         margin-bottom: 10px;
-      }
+    }
 
     .main .acerca-de .contenedor .titulo-seccion,
     .main .acerca-de .contenedor .texto-acerca-de {
