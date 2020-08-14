@@ -183,7 +183,7 @@ body {
 }
 
 .main .banner-principal .texto-banner h1 {
-    font-size: 6.0625rem;
+    font-size: 4rem;
     font-weight: 700;
     line-height: 90px;
     color: #fff;
@@ -845,8 +845,9 @@ footer .footer-redes a:hover {
 
     .contenedor-menu .encabezado li a{
         display: none;
-      }
-      .contenedor-menu .encabezado .ver-menu{
+    }
+
+    .contenedor-menu .encabezado .ver-menu{
         text-decoration: none;
         color: #0a3782;
         font-size: 0.75rem;
@@ -855,7 +856,14 @@ footer .footer-redes a:hover {
         cursor: pointer;
         transition: all .3s ease;
         border-bottom: 2px solid transparent;
-      }
+    }
+
+    .main .banner-principal .texto-banner h1 {
+        font-size: 3rem;
+    }
+    .main .banner-principal .texto-banner h2 {
+        font-size: 1.4rem;
+    }
 
     .main .viajes .contenedor .contenedor-menu .contenido .viaje{
 
@@ -889,7 +897,10 @@ footer .footer-redes a:hover {
 
 @media screen and (max-width: 550px) {
     .main .banner-principal .texto-banner h1 {
-        font-size: 4rem;
+        font-size: 2.3rem;
+    }
+    .main .banner-principal .texto-banner h2 {
+        font-size: 1.3rem;
     }
     .titulo-seccion h2 {
         font-size: 2.125rem;
