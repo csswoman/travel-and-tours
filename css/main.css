@@ -652,66 +652,66 @@ body {
 }
 
 .main .viajes .contenedor .contenedor-menu .contenido .viaje.sudamerica-a {
-    background-image: url("../img/1.jpeg");
+    background-image: url("../img/peru.jpeg");
 }
 
 .main .viajes .contenedor .contenedor-menu .contenido .viaje.sudamerica-b {
-    background-image: url("../img/2.jpeg");
+    background-image: url("../img/chile.jpg");
 }
 
 .main .viajes .contenedor .contenedor-menu .contenido .viaje.sudamerica-c {
-    background-image: url("../img/3.jpeg");
+    background-image: url("../img/brasil.jpg");
 }
 
 
 .main .viajes .contenedor .contenedor-menu .contenido .viaje.norteamerica-a {
-    background-image: url("../img/4.jpeg");
+    background-image: url("../img/disney.jpg");
 }
 
 .main .viajes .contenedor .contenedor-menu .contenido .viaje.norteamerica-b {
-    background-image: url("../img/5.jpeg");
+    background-image: url("../img/sf.jpg");
 }
 
 .main .viajes .contenedor .contenedor-menu .contenido .viaje.norteamerica-c {
-    background-image: url("../img/6.jpeg");
+    background-image: url("../img/canada.jpg");
 }
 
 
 .main .viajes .contenedor .contenedor-menu .contenido .viaje.caribe-a {
-    background-image: url("../img/1.jpeg");
+    background-image: url("../img/cuba.jpg");
 }
 
 .main .viajes .contenedor .contenedor-menu .contenido .viaje.caribe-b {
-    background-image: url("../img/2.jpeg");
+    background-image: url("../img/costa-rica.jpg");
 }
 
 .main .viajes .contenedor .contenedor-menu .contenido .viaje.caribe-c {
-    background-image: url("../img/3.jpeg");
+    background-image: url("../img/los-roques.jpg");
 }
 
 
 .main .viajes .contenedor .contenedor-menu .contenido .viaje.europa-a {
-    background-image: url("../img/4.jpeg");
+    background-image: url("../img/reino-unido.jpg");
 }
 
 .main .viajes .contenedor .contenedor-menu .contenido .viaje.europa-b {
-    background-image: url("../img/5.jpeg");
+    background-image: url("../img/grecia.jpg");
 }
 
 .main .viajes .contenedor .contenedor-menu .contenido .viaje.europa-c {
-    background-image: url("../img/6.jpeg");
+    background-image: url("../img/francia.jpg");
 }
 
 .main .viajes .contenedor .contenedor-menu .contenido .viaje.asia-a {
-    background-image: url("../img/1.jpeg");
+    background-image: url("../img/japon.jpg");
 }
 
 .main .viajes .contenedor .contenedor-menu .contenido .viaje.asia-b {
-    background-image: url("../img/2.jpeg");
+    background-image: url("../img/indonesia.jpg");
 }
 
 .main .viajes .contenedor .contenedor-menu .contenido .viaje.asia-c {
-    background-image: url("../img/3.jpeg");
+    background-image: url("../img/turquia.jpg");
 }
 
 footer {
@@ -929,3 +929,4 @@ footer .footer-redes a:hover {
         margin-bottom: 40px;
     }
 }
+
