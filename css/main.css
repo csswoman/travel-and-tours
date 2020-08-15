@@ -305,11 +305,9 @@ body {
     transform: scale(0.9);
 }
 
-/* Modal seccion destinos */
-
 .main .acerca-de {
     background: var(--light-color);
-    padding: 108px 0 54px 0;
+    padding-bottom: 40px;
 }
 
 .main .acerca-de .contenedor {
@@ -339,7 +337,88 @@ body {
     font-weight: 400;
 }
 
+.image-gallery {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    grid-gap: 1.5rem;
+    grid-template-areas:
+        'img-1 img-2 img-3 img-3'
+        'img-1 img-4 img-5 img-6'
+        'img-7 img-7 img-8 img-6';
+}
 
+.image-gallery a {
+    width: 100%;
+    height: 25rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+
+.image-gallery a::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, .8);
+    opacity: 0;
+    transition: opacity .5s;
+}
+
+.image-gallery a:hover i,
+.image-gallery a:hover::before {
+    opacity: 1;
+}
+
+.img-1 {
+    grid-area: img-1;
+    min-height: 51.5rem;
+    background-image: url("../img/gallery/roma.jpg");
+}
+
+.img-2 {
+    grid-area: img-2;
+    background-image: url("../img/gallery/cancun.jpg");
+}
+
+.img-3 {
+    grid-area: img-3;
+    background-image: url("../img/gallery/ny.jpg");
+}
+
+.img-4 {
+    grid-area: img-4;
+    background-image: url("../img/gallery/budapest.jpg");
+}
+
+.img-5 {
+    grid-area: img-5;
+    background-image: url("../img/gallery/amsterdam.jpg");
+}
+
+.img-6 {
+    grid-area: img-6;
+    min-height: 51.5rem;
+    background-image: url("../img/gallery/dublin.jpg");
+}
+
+.img-7 {
+    grid-area: img-7;
+    background-image: url("../img/gallery/praga.jpg");
+}
+
+.img-8 {
+    grid-area: img-8;
+    background-image: url("../img/gallery/cdmx.jpg");
+}
 
 .main .contenedor-slider {
     width: 100%;
@@ -609,7 +688,7 @@ body {
 
 /*-------------VIAJES------------ */
 .main .viajes {
-    background: #f8f5f5;
+    background: var(--light-color);
     padding: 108px 0 54px 0;
 }
 
@@ -1018,3 +1097,46 @@ footer .footer-redes a:hover {
     }
 }
 
+@media screen and (max-width: 900px) {
+    .image-gallery {
+        grid-template-areas:
+        'img-1 img-1 img-2 img-2'
+        'img-1 img-1 img-3 img-3'
+        'img-4 img-4 img-5 img-5'
+        'img-6 img-7 img-7 img-7'
+        'img-8 img-8 img-8 img-8';
+    }
+
+    .image-gallery a {
+        height: 20rem;
+    }
+
+    .img-1 {
+        min-height: 41.5rem;
+    }
+
+    .img-6 {
+        min-height: 20rem;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .image-gallery {
+        grid-template-areas:
+        'img-1 img-1 img-1 img-1'
+        'img-2 img-2 img-2 img-2'
+        'img-3 img-3 img-3 img-3'
+        'img-4 img-4 img-4 img-4'
+        'img-5 img-5 img-5 img-5'
+        'img-6 img-6 img-6 img-6'
+        'img-7 img-7 img-7 img-7'
+        'img-8 img-8 img-8 img-8';
+    }
+
+    .image-gallery a,
+    .img-1,
+    .img-6 {
+        min-height: 30rem;
+        height: 30rem;
+    }
+}
