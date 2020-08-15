@@ -259,13 +259,13 @@ body {
 
 .card .content .title{
     font-size: 25px;
-    font-weight: 600;
+    font-weight: 500;
+    color: var(--secondary-color);
 }
 
 .card .content .sub-title {
     font-size: 15px;
-    font-weight: 600;
-    color: var(--secondary-color);
+    font-weight: 500;
     line-height: 20px;
 }
 
