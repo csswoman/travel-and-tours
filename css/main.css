@@ -368,9 +368,10 @@ body {
     height: 100%;
     top: 0;
     left: 0;
-    background-color: rgba(0, 0, 0, .8);
+    background-color: rgba(133, 168, 192, 0.8);
     opacity: 0;
     transition: opacity .5s;
+    cursor: pointer;
 }
 
 .image-gallery a:hover i,
@@ -418,6 +419,14 @@ body {
 .img-8 {
     grid-area: img-8;
     background-image: url("../img/gallery/cdmx.jpg");
+}
+
+.texto-ciudad {
+    color: #fff;
+    font-size: 1.7rem;
+    font-weight: bold;
+    text-align: center;
+    z-index: 2;
 }
 
 .main .contenedor-slider {
