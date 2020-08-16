@@ -19,4 +19,14 @@ $(document).ready(function(){
     }
 
     btnSiguiente.on('click', moverDerecha);
+
+    function moverIzquierda() {
+        $('#slider .slide:last').insertBefore('#slider .slide:first');
+        slider.css('margin-left', '-105.6%');
+        slider.animate({
+            marginLeft: '-43%'
+        }, 700);
+    }
+
+    btnAnterior.on('click', moverIzquierda);
 });
