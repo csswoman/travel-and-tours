@@ -8,5 +8,15 @@ $(document).ready(function(){
 
     slider.css('margin-left', '-43%');
 
-    
+
+    function moverDerecha() {
+        slider.animate({
+            marginLeft: '-105.6%'
+        }, 700, function(){
+            $('#slider .slide:first').insertAfter('#slider .slide:last');
+            slider.css('margin-left', '-43%');
+        });
+    }
+
+    btnSiguiente.on('click', moverDerecha);
 });
