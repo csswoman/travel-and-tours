@@ -429,6 +429,68 @@ body {
     z-index: 2;
 }
 
+.main .atracciones{
+    background: var(--light-color);
+    padding: 108px 0 54px 0;
+  }
+  
+  .main .atracciones .galeria-atracciones{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-bottom: 34px;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .main .atracciones .galeria-atracciones .atraccion{
+    width: 32%;
+    margin-bottom: 2%;
+    cursor: pointer;
+  }
+  
+  .main .atracciones .galeria-atracciones .atraccion img{
+    width: 100%;
+    vertical-align: top;
+  }
+  
+  /*Modal fotos atracciones*/
+  .modal{
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    background: rgba(0,0,0,0.8);
+    z-index: 9999999999;
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .modal img{
+    width: 90%;
+    max-width: 600px;
+  }
+  
+  .modal .btn-cerrar{
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    top: 20px;
+    right: 20px;
+    background: var(--primary-color);
+    text-align: center;
+    cursor: pointer;
+  }
+  
+  .modal .btn-cerrar i{
+    color: #fff;
+    font-size: 1rem;
+    line-height: 50px;
+  }
+
 .main .contenedor-slider {
     width: 100%;
     overflow: hidden;
