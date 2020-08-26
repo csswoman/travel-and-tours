@@ -695,8 +695,6 @@ body {
     opacity: 1;
 } */
 
-
-
 .text {
     white-space: nowrap;
     font-size: 1.2rem;
@@ -967,6 +965,14 @@ body {
     width: 50%;
     background-image: url(../img/foto-contacto.jpg);
     background-size: cover;
+}
+
+.main .contacto .contenedor-formulario .formulario form .error {
+    display: none;
+    color: #ff8c8c;
+    font-size: 12px;
+    margin-top: -10px;
+    margin-bottom: 10px;
 }
 
 footer {

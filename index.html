@@ -95,7 +95,7 @@
             <div class="texto-banner">
                 <h2>Creadores de experiencias</h2>
                 <h1>¿Dónde será la próxima?</h1>
-                <a href="#" class="scroll-suave">Ver promociones</a>
+                <a href="#promociones" class="scroll-suave">Ver promociones</a>
             </div>
         </section>
 
@@ -561,18 +561,21 @@
         <div class="contacto" id="contacto" data-parallax="scroll" data-image-src="img/bg-contacto.jpg">
             <div class="contenedor">
                 <div class="contenedor-formulario">
-                    <div class="formulario">
+                    <div class="formulario" id="formulario">
                         <h2>Cuéntanos acerca de tu viaje</h2>
                         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsa, voluptatibus.</p>
                         <form>
                             <div>
-                                <input type="text" name="nombre" placeholder="Nombre">
+                                <input type="text" name="nombre" placeholder="Nombre" id="nombre">
+                                <p class="error">Por favor escribe tu nombre</p>
                             </div>
                             <div>
-                                <input type="email" name="email" placeholder="Correo electrónico">
+                                <input type="email" name="email" placeholder="Correo electrónico" id="email">
+                                <p class="error">Por favor escribe tu correo</p>
                             </div>
                             <div>
-                                <textarea name="mensaje" placeholder="Cuéntanos acerca de tu viaje"></textarea>
+                                <textarea name="mensaje" placeholder="Cuéntanos acerca de tu viaje" id="mensaje"></textarea>
+                                <p class="error">Por favor escribe tu mensaje</p>
                             </div>
                             <div>
                                 <input type="submit" name="enviar" value="Enviar">
@@ -611,6 +614,7 @@
     <script src="js/modal.js"></script>
     <script src="js/slider.js"></script>
     <script src="js/parallax.min.js"></script>
+    <script src="js/validacion.js"></script>
     <script src="js/prefixfree.min.js"></script>
 </body>
 
