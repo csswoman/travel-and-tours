@@ -1141,6 +1141,10 @@ footer .footer-redes a:hover {
         text-align: center;
     }
 
+    .main .atracciones .galeria-atracciones .atraccion {
+        width: 47%;
+    }
+
     .main .contacto .contenedor-formulario .formulario {
         width: 100%;
         text-align: center;
@@ -1170,8 +1174,8 @@ footer .footer-redes a:hover {
         font-size: 2.125rem;
     }
 
-    .main .promociones .galeria-destinos .destino {
-        width: 49%;
+    .main .atracciones .galeria-atracciones .atraccion {
+        width: 100%;
     }
 
     .main .testimonios .testigo .persona-testigo {
